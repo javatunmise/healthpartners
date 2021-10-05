@@ -1,0 +1,125 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+header .navbar {
+  margin-bottom: 0 !important;
+}
+
+header {
+  border-bottom: 1px #d671c3 solid;
+}
+
+header .navbar-nav a { color:#d671c3 !important}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+#login-form-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/hospital-gb-1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+#login-form-container #login-form
+{
+  position: relative;
+  /* background-color: #fff; */
+  opacity: 1;
+  width: 100%;
+  height: 500px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: auto;
+}
+
+#login-form-container div.form-wrapper
+{
+  border: solid 2px #bbbbbb;
+  background-color: #fff;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 30px;
+  box-shadow: #cccccc 4px 4px;
+}
+
+#login-form-container #login-form .submit-button
+{
+  width: 100%;
+  background-color: #247fbc;
+  border: solid 2px #247fbc;
+  border-radius: 0;
+}
+
+#login-form-container #login-form input {
+  border-radius: 0;
+}
+
+.validation-errors {
+  color: red;
+}
+
+.inner-page-container {
+  background-color: #f7f7f7;
+  padding: 15px 30px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.inner-page-container .card.section {
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  border: solid 1px #f9fbfd;
+}
+
+.inner-page-container .table thead th {
+  border-bottom: 2px solid #d671c3;
+  color: #d671c3;
+}
+
+.side-bar-container {
+  position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.dashboard-component {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.navbar-profile-photo {
+  height: 30px; 
+  width: 30px;
+  border-radius: 50%;
+}
+
+#login-form input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 48px;
+}
+
+.footer-content {
+  position: absolute;
+  bottom: 0; 
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  opacity: 0.7;
+  font-weight: bold;
+}

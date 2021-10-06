@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby';
 import Card from 'reactstrap/lib/Card';
 import CardBody from 'reactstrap/lib/CardBody';
-import { DateTimeUtil } from '../utils/datetime'
+import { DateTimeUtil } from '../../components/utils/datetime'
 
 export default class DashboardComponent extends Component
 {

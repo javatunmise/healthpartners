@@ -10,7 +10,7 @@ import FormGroup from "reactstrap/lib/FormGroup";
 import Label from "reactstrap/lib/Label";
 import Row from "reactstrap/lib/Row";
 import Col from "reactstrap/lib/Col";
-import InnerPageTemplate from "../utils/InnerPageTemplate"
+import InnerPageTemplate from "../../components/utils/InnerPageTemplate";
 import Table from "reactstrap/lib/Table";
 import Layout from "../../components/Layout";
 

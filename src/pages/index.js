@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Row } from 'reactstrap'
 import Layout from '../components/Layout'
-import InnerPageTemplate from './utils/InnerPageTemplate'
+import InnerPageTemplate from '../components/utils/InnerPageTemplate'
 import DashboardComponent, 
       { 
         RecentVitals, UpcomingAppointments, DashboardSummaryBox, Messages,

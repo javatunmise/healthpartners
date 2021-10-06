@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "../../components/Layout";
-import InnerPageTemplate from "../utils/InnerPageTemplate";
+import InnerPageTemplate from "../../components/utils/InnerPageTemplate";
 import { Card, CardBody, CardHeader } from "reactstrap";
 import { Link } from "gatsby";
 import { navigate } from "gatsby-link";

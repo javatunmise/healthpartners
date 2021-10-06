@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout";
-import InnerPageTemplate from './utils/InnerPageTemplate'
+import InnerPageTemplate from "../components/utils/InnerPageTemplate";
 import PharmacyHistory from '../components/medications/PharmacyHistory'
 import MedicationHistory from '../components/medications/MedicationHistory'
 

@@ -22,7 +22,7 @@ class MedicationHistory extends Component
     }
 
     async loadData() {
-        const response = await fetch('./data/medicationhistories.json', {
+        const response = await fetch('./static/data/medicationhistories.json', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'

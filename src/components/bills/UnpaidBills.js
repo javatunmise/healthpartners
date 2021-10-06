@@ -13,7 +13,7 @@ class UnpaidBills extends Component {
     }
 
     async loadData() {
-        const response = await fetch('./data/bills.json', {
+        const response = await fetch('./static/data/bills.json', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'

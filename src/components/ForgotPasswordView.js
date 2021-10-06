@@ -23,7 +23,7 @@ export class ForgotPasswordView extends Component {
   tryLogin (event) {
     event.preventDefault();
     let email = this.state.email;
-    let errors = this.state.errors;
+    let errors = []
     
     if(email === "") errors.push('Email is required');
     if(!this.isEmail(email)) errors.push('Provided email is not valid')
@@ -42,10 +42,9 @@ export class ForgotPasswordView extends Component {
 
   handleInputEvent(event) {
     let fieldName = event.target.name
+
     if(fieldName === "email") 
       this.setState({email: event.target.value})
-    else if(fieldName === "password")
-      this.setState({password: event.target.value})
     else
       return
   }
@@ -62,7 +61,7 @@ export class ForgotPasswordView extends Component {
               <Col md={4} className="form-wrapper">
 
                 <div className="text-center">
-                  <img style={{height:'80px'}} src="/images/solidrocklogo.png" alt="logo" />
+                  <img style={{height:'80px'}} src="../static/images/solidrocklogo.png" alt="logo" />
                 </div>
 
                 <hr style={{borderColor:'#d671c3'}} />

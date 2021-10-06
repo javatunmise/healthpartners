@@ -66,7 +66,7 @@ class AppointmentList extends Component
     }
 
     async loadAppointments() {
-        const response = await fetch('../data/appointments.json', {
+        const response = await fetch('../static/data/appointments.json', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'

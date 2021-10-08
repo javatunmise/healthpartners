@@ -1,0 +1,8 @@
+
+[
+    { "name": "Paracetamol", "dosage": "3 times a day", "status": "active" },
+    { "name": "Tramadol", "dosage": "2 dosage after each meal", "status": "discontinued" },
+    { "name": "Phensic", "dosage": "2 tablets 3 times a day", "status": "active" },
+    { "name": "Chloraphenol", "dosage": "Morning and Night", "status": "active" },
+    { "name": "Quinine", "dosage": "1 per day", "status": "discontinued" }
+]

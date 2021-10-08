@@ -1,0 +1,5 @@
+[
+    {"name": "Consultation", "amount": 15000, "status": "Paid", "paidBy": "Self"},
+    {"name": "Drugs", "amount": 25000, "status": "Not Paid", "paidBy": "N/A"},
+    {"name": "Labs", "amount": 17000, "status": "Paid", "paidBy": "Social-Workers"}
+]

@@ -174,7 +174,7 @@ let CareTeamMembers = props => {
     ]
 
     let images = [
-        './static/images/2.jpg','./static/images/1.jpg','./static/images/5.jpg','./static/images/4.jpg'
+        '../images/2.jpg','../images/1.jpg','../images/5.jpg','../images/4.jpg'
     ]
 
     return(

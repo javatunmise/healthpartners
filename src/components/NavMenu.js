@@ -35,7 +35,7 @@ export class NavMenu extends Component {
         <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
           <Container fluid>
             <NavbarBrand tag={Link} to="/">
-              <img alt="" style={{width: '35px'}} src="/static/images/cross-sign.png" /> Solid Rock Hospital
+              <img alt="" style={{width: '35px'}} src="../images/cross-sign.png" /> Solid Rock Hospital
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
             <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>

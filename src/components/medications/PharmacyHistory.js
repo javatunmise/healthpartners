@@ -21,7 +21,7 @@ class PharmacyHistory extends Component
     }
 
     async loadData() {
-        const response = await fetch('./static/data/pharmacies.json', {
+        const response = await fetch('../data/pharmacies.json', {
             headers : { 
               'Content-Type': 'application/json',
               'Accept': 'application/json'

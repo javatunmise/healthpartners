@@ -66,7 +66,7 @@ export class LoginView extends Component {
               <Col md={4} className="form-wrapper">
 
                 <div className="text-center">
-                  <img style={{height:'80px'}} src="../static/images/solidrocklogo.png" alt="logo" />
+                  <img style={{height:'80px'}} src="../../images/solidrocklogo.png" alt="logo" />
                 </div>
 
                 <hr style={{borderColor:'#d671c3'}} />

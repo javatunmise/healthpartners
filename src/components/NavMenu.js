@@ -51,7 +51,7 @@ export class NavMenu extends Component {
                 </NavItem> */}
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>
-                    <img alt="" src="static/images/profile-photo.png" className="navbar-profile-photo" />
+                    <img alt="" src="../images/profile-photo.png" className="navbar-profile-photo" />
                   </DropdownToggle>
                   <DropdownMenu right>
                     {/* <DropdownItem>Profile</DropdownItem>

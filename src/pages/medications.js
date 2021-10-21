@@ -9,9 +9,9 @@ const Medications = (props) => {
         <Layout>
             <InnerPageTemplate PageTitle="Medications">
                 <div>
-                <PharmacyHistory />
+                {/* <PharmacyHistory />
 
-                <br />
+                <br /> */}
                 <MedicationHistory />     
                 </div>
             </InnerPageTemplate>

@@ -1,23 +1,27 @@
 [
     {
-        "name": "Aerobics Workout",
+        "name": "Pelvic and Breast exams",
         "date": "2021-05-13 7:00 AM"
     },
     {
-        "name": "Urine Test Check",
+        "name": "Pap Smear exam",
         "date": "2021-05-13 2:00 PM"
     },
    {
-        "name": "Dentist Checkup",
+        "name": "Glucose screening ( 1 hour )",
         "date": "2021-05-14 9:00 AM",
         "consultant": "Dr. Alex Blade"
     },
     {
-        "name": "Ante-natal care",
+        "name": "Blood tests",
         "date": "2021-05-18 1:00 PM"
     },
     {
-        "name": "Baby Scan Recheck",
+        "name": "Ultrasounds",
         "date": "2021-05-22 4:00 PM"
+    },
+    {
+        "name": "Fetal Non-Stress Test (NST)",
+        "date": "2021-05-24 4:00 PM"
     }
 ]

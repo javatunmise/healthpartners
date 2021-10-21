@@ -10,8 +10,12 @@ const SocialWorkers = (props) => {
     return (
         <Layout>
             <InnerPageTemplate PageTitle="Social Workers">
+
+            <Card className="section">
+            <CardHeader><h5>List of Sponsors</h5></CardHeader>
+            <CardBody>
                 
-            <table className="table table-bordered" style={{width: '500px'}}>
+            <table className="table table-bordered" style={{width: '91%'}}>
                 <thead>
                     <tr>
                     <th>Sponsor</th>
@@ -33,6 +37,8 @@ const SocialWorkers = (props) => {
                     </tr>
                 </tbody>
                 </table>
+            </CardBody>
+            </Card>
                 
             </InnerPageTemplate>
         </Layout>

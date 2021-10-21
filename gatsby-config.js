@@ -4,4 +4,7 @@ module.exports = {
     title: "healthpartners",
   },
   plugins: [],
+  flags: {
+    DEV_SSR: true
+  }
 };

@@ -1,8 +1,9 @@
 
 [
-    { "name": "Paracetamol", "dosage": "3 times a day", "status": "active" },
-    { "name": "Tramadol", "dosage": "2 dosage after each meal", "status": "discontinued" },
-    { "name": "Phensic", "dosage": "2 tablets 3 times a day", "status": "active" },
-    { "name": "Chloraphenol", "dosage": "Morning and Night", "status": "active" },
-    { "name": "Quinine", "dosage": "1 per day", "status": "discontinued" }
+    { "name": "Paracetamol", "dosage": "1000 mg orally three times a day", "status": "active" },
+    { "name": "Tramadol", "dosage": "100 mg orally once a day", "status": "active" },
+    { "name": "Phensic", "dosage": "100 mg orally once a day", "status": "discontinued" },
+    { "name": "Ferrous sulphate", "dosage": " 325 mg orally once a day", "status": "active" },
+    { "name": "Folic acid", "dosage": "325 mg orally once a day", "status": "active" },
+    { "name": "Prenatal multivitamin", "dosage": "Once a day", "status": "active" }
 ]

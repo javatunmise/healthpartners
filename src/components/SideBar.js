@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavItem, NavLink } from 'reactstrap';
+import { Dropdown, DropdownItem, DropdownMenu, DropdownToggle, ListGroup, ListGroupItem, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'gatsby';
 import '../custom.css'
 import '../NavMenu.css';
@@ -47,13 +47,13 @@ export class SideBar extends Component {
                   <NavLink tag={Link} className="text-dark" to="/bills-and-payment">Bills and Payments</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/dependents">Dependents</NavLink>
+                  <NavLink tag={Link} className="text-dark" to="/socialworkers">Social Workers</NavLink>
                 </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} className="text-dark" to="#">Dependents</NavLink>
+                 </NavItem>
                 <NavItem>
                   <NavLink tag={Link} className="text-dark" to="/messages">Messages</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink tag={Link} className="text-dark" to="/socialworkers">Social Workers</NavLink>
                 </NavItem>
              </ul>
       </div>

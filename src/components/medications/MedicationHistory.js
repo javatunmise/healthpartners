@@ -47,6 +47,7 @@ class MedicationHistory extends Component
                     <th>Name</th>
                     <th>Dosage</th>
                     <th>Status</th>
+                    <th></th>
                     </tr>              
                 </thead>
                 <tbody>
@@ -54,7 +55,8 @@ class MedicationHistory extends Component
                     <tr key={index}>
                         <td>{item.name}</td>
                         <td>{item.dosage}</td>
-                        <td>{item.status} {showStatus(item.status)}</td>
+                        <td><span className={getTextColor(item.status)}>{item.status}</span></td>
+                        <td><div className={showStatus(item.status)}></div></td>
                     </tr>
                     )}              
                 </tbody>
@@ -65,8 +67,12 @@ class MedicationHistory extends Component
     }
 }
 
+let getTextColor = (text) => {
+    return text === "active" ? "" : "text-danger";
+}
+
 let showStatus = (text) => {
-    return text === "active" ? "" : "";
+    return text === "active" ? "marks ok" : "marks cancel";
 }
 
 let Loading = props => {
